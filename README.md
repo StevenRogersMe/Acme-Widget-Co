@@ -1,6 +1,9 @@
 # Acme-Widget-Co
 
 // Example usage
+
+You can use the Acme-Widget-co class by following this way
+
 $productCatalogue = array(
   'R01' => 32.95,
   'G01' => 24.95,
