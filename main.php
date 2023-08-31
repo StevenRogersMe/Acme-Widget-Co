@@ -1,12 +1,10 @@
 class Basket {
   private $products;
-  private $deliveryRules;
   private $offers;
   private $items;
 
-  public function __construct($productCatalogue, $deliveryChargeRules, $offers) {
+  public function __construct($productCatalogue, $offers) {
     $this->products = $productCatalogue;
-    $this->deliveryRules = $deliveryChargeRules;
     $this->offers = $offers;
     $this->items = array();
   }
