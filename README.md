@@ -15,8 +15,11 @@ $offers = array(
 );
 
 $basket = new Basket($productCatalogue, $offers);
+
 $basket->add('R01');  // Add a red widget to the basket
+
 $basket->add('G01');  // Add a green widget to the basket
+
 $totalCost = $basket->total();  // Calculate the total cost of the basket
 
 echo "Total cost: $" . number_format($totalCost, 2);
